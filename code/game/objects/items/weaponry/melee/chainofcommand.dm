@@ -66,10 +66,11 @@
 	"Respect Those Beneath Ye — All Are of Gaia",
 	"The Veil Shall Not Be Lifted",
 	"Do Not Suffer Thy People to Tend Thy Sickness",
-	"The Leader May Be Challenged at Any Time During Peace~",
+	"The Leader May Be Challenged at Any Time During Peace",
 	"The Leader May Not Be Challenged During Wartime",)
 	var/litany = pick(litanies)
-	to_chat(target, span_bigicon(litany))
+	playsound(get_turf(user), 'sound/effects/magic/clockwork/invoke_general.ogg', 300, TRUE, 5)
+	to_chat(target, "<span class='narsiesmall'>[litany]</span>")
 
 
 /obj/item/melee/chainofcommand/suicide_act(mob/living/user)
