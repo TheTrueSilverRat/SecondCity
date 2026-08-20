@@ -3,8 +3,8 @@
 /datum/job/vampire/clinic_police
 	title = JOB_CLINIC_ORDERLY
 	faction = FACTION_CITY
-	total_positions = 1
-	spawn_positions = 1
+	total_positions = 2
+	spawn_positions = 2
 	supervisors = "the Clinic Director first but the Police Captain above all"
 	config_tag = "CLINIC_ORDERLY"
 	outfit = /datum/outfit/job/vampire/clinic_police
