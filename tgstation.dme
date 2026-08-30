@@ -8338,6 +8338,7 @@
 #include "modular_vcg\modules\jobs\code\garou\truthcatcher.dm"
 #include "modular_vcg\modules\jobs\code\garou\warder.dm"
 #include "modular_vcg\modules\jobs\code\garou\wyrmfoe.dm"
+#include "modular_vcg\modules\jobs\code\sabbat\sabbat.dm"
 #include "modular_vcg\modules\lobby_join_stuff\code\change_character_slot.dm"
 #include "modular_vcg\modules\lobby_music_notice\code\lobbymusicnotice.dm"
 #include "modular_vcg\modules\lobby_notices\code\lobby_notices.dm"
